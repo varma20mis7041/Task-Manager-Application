@@ -1,0 +1,23 @@
+.tag_button_element {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #f1f5f9;
+  background-color: transparent;
+  border: 2px solid #f1f5f9;
+  border-radius: 15px;
+  margin-right: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.active {
+  border-color: #f3aa4e;
+  background-color: #f3aa4e;
+  color: #000000;
+}
+@media screen and (max-width: 768px) {
+  .tag_button_element {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,123 @@
+.tasks_display_bg_container {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  background-color: #000000;
+  padding: 60px;
+}
+@media screen and (max-width: 768px) {
+  .tasks_display_bg_container {
+    height: 60vh;
+    width: 100%;
+    padding: 10px;
+  }
+}
+.category_heading_and_priority_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.priority_area_bg_container {
+  display: flex;
+  align-items: center;
+}
+.priority_heading {
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+  color: #f1f5f9;
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  .priority_heading {
+    font-size: 14px;
+  }
+}
+.display_tasks_heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #f1f5f9;
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  .display_tasks_heading {
+    font-size: 20px;
+  }
+}
+.tags_bg_list_container {
+  min-height: 30px;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .tags_bg_list_container {
+    width: 90vw;
+    overflow-x: auto;
+  }
+}
+.no_added_tasks_container {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.added_tasks_list_container {
+  padding: 0px;
+  list-style-type: none;
+  height: 60vh;
+  overflow-y: auto;
+}
+@media screen and (max-width: 768px) {
+  .added_tasks_list_container {
+    height: 30vh;
+  }
+}
+.no_tasks_heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .no_tasks_heading {
+    font-size: 20px;
+  }
+}
+
+.priority_select_item {
+  height: 30px;
+  font-size: 18px;
+  font-family: 'Roboto';
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  background-color: #ffffff;
+  width: 120px;
+}
+@media screen and (max-width: 768px) {
+  .priority_select_item {
+    font-size: 13px;
+  }
+}
+.tasks_and_save_button_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.save_tasks_button {
+  height: 30px;
+  width: 60px;
+  background-color: blueviolet;
+  border-width: 0px;
+  border-radius: 5px;
+  color: #f1f5f9;
+  font-size: 13px;
+  font-family: Roboto;
+  font-weight: bold;
+  cursor: pointer;
+}

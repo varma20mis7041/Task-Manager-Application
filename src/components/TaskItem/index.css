@@ -1,0 +1,158 @@
+.list_item_container {
+  height: 80px;
+  width: 100%;
+  background-color: #1a171d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+.task_name {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #f8fafc;
+}
+.task_category {
+  height: 30px;
+  border: none;
+  background-color: #f3aa4e;
+  border-radius: 10px;
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #1a171d;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .list_item_container {
+    height: 50px;
+    padding: 7px 12px;
+    margin-bottom: 15px;
+  }
+  .task_name {
+    font-size: 16px;
+  }
+  .task_category {
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    font-size: 10px;
+    font-family: Roboto;
+    width: 40%;
+  }
+}
+.task_item_right_container {
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .task_item_right_container {
+    width: 50vw;
+  }
+}
+.delete_icon_button {
+  background-color: red;
+  color: #ffffff;
+  height: 40px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 0px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.edit_icon_button {
+  height: 40px;
+  width: 50px;
+  background-color: blueviolet;
+  border-radius: 3px;
+  border-width: 0px;
+  cursor: pointer;
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .delete_icon_button {
+    height: 30px;
+    width: 30px;
+  }
+  .edit_icon_button {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.popup_bg_container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+
+.close_modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+  background-color: #f8fafc;
+  font-family: Roboto;
+  font-weight: bold;
+  border-width: 0px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.priority_element {
+  height: 30px;
+  width: 60px;
+  border-width: 0px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-family: Roboto;
+  color: #1a171d;
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .priority_element {
+    height: 25px;
+    width: 50px;
+    font-size: 10px;
+  }
+}
+
+.Low {
+  background-color: #00ff00;
+}
+.Medium {
+  background-color: #ffff00;
+}
+.High {
+  background-color: #ff0000;
+}
