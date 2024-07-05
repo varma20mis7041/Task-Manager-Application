@@ -13,7 +13,7 @@ Follow these steps to set up and run the application:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/task-manager.git
+   https://github.com/varma20mis7041/Task-Manager-Application.git
     ```
 
 2. Navigate to the project directory:
