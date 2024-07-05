@@ -6,8 +6,7 @@ Task Manager is a simple and efficient application to manage your daily tasks. B
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Installation
 Follow these steps to set up and run the application:
@@ -38,30 +37,3 @@ Follow these steps to set up and run the application:
 ## Usage
 Once the application is running, you can start adding, editing, and managing your tasks. The interface is intuitive and easy to use.
 
-## Contributing
-If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
-
-1. Fork the repository:
-    ```bash
-    git fork https://github.com/yourusername/task-manager.git
-    ```
-
-2. Create your feature branch:
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-
-3. Commit your changes:
-    ```bash
-    git commit -m 'Add some feature'
-    ```
-
-4. Push to the branch:
-    ```bash
-    git push origin feature/your-feature-name
-    ```
-
-5. Create a new Pull Request
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
