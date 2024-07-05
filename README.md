@@ -18,7 +18,7 @@ Follow these steps to set up and run the application:
 
 2. Navigate to the project directory:
     ```bash
-    cd task-manager
+    cd Task-Manager-Application
     ```
 
 3. Install the necessary dependencies:
