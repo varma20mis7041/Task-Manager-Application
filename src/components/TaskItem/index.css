@@ -59,6 +59,16 @@
     width: 50vw;
   }
 }
+@media screen and (max-width: 500px) {
+  .task_item_right_container {
+    width: 55vw;
+  }
+}
+@media screen and (max-width: 370px) {
+  .task_item_right_container {
+    width: 60vw;
+  }
+}
 .delete_icon_button {
   background-color: red;
   color: #ffffff;
@@ -146,6 +156,7 @@
     font-size: 10px;
   }
 }
+
 
 .Low {
   background-color: #00ff00;
